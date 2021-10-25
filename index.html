@@ -38,16 +38,16 @@
 
         <!-- use rawgithack to retrieve the correct url for nft marker (see 'pinball' below) -->
         <a-nft
-            type='nft' url='hualianar/armark/armarker'
+            type='nft' url='hualianar/armark/ar1'
             smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
-            
-		<a-box 
-          color="blue"
-          scale="0.07 0.07 0.07"
-          position="0 0 0">
-        </a-box>
+            <a-entity
+                gltf-model='./trex/box.gltf'
+                scale="10 10 10"
+                position="0 0 0"
+                >
+            </a-entity>
         </a-nft>
-		<a-entity camera></a-entity>
+	<a-entity camera></a-entity>
     </a-scene>
 </body>
 
