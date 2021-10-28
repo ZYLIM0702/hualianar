@@ -1,112 +1,165 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image.prod.js"></script>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image-aframe.prod.js"></script>
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-
-
-
 <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 
-      document.addEventListener("DOMContentLoaded", function() {
-    const sceneEl = document.querySelector('a-scene');
-    const arSystem = sceneEl.systems["mindar-image-system"];
-    const exampleTarget = document.querySelector('#example-target');
-    const examplePlane = document.querySelector('#example-plane');
 
-    const startButton = document.querySelector("#example-start-button");
-    const stopButton = document.querySelector("#example-stop-button");
-    const pauseButton = document.querySelector("#example-pause-button");
-    const pauseKeepVideoButton = document.querySelector("#example-pause-keep-video-button");
-    const unpauseButton = document.querySelector("#example-unpause-button");
-
-    startButton.addEventListener('click', () => {
-      console.log("start");
-      arSystem.start(); // start AR 
-    });
-    stopButton.addEventListener('click', () => {
-      arSystem.stop(); // stop AR 
-    });
-    pauseButton.addEventListener('click', () => {
-      arSystem.pause(); // pause AR, keep video feed
-    });
-    pauseKeepVideoButton.addEventListener('click', () => {
-      arSystem.pause(true); // pause AR and video
-    });
-    unpauseButton.addEventListener('click', () => {
-      arSystem.unpause(); // unpause AR and video
-    });
-
-    // arReady event triggered when ready
-    sceneEl.addEventListener("arReady", (event) => {
-      // console.log("MindAR is ready")
-    });
-
-    // arError event triggered when something went wrong. Mostly browser compatbility issue
-    sceneEl.addEventListener("arError", (event) => {
-      // console.log("MindAR failed to start")
-    });
-
-    // detect target found
-    exampleTarget.addEventListener("targetFound", event => {
-      console.log("target found");
-    });
-
-    // detect target lost
-    exampleTarget.addEventListener("targetLost", event => {
-      console.log("target lost");
-    });
-
-    // detect click event
-    examplePlane.addEventListener("click", event => {
-      console.log("plane click");
-    });
-      });
-
-    </script>
-<style>
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 8px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 13px;
+ function stop() {
+    var audioPlayer = document.getElementsByTagName('audio')[0];
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
 }
+</script>
+<style>
+@font-face {
+    font-family: myFirstFont;
+    src: url(MaShanZheng-Regular.ttf);
+}
+@font-face {
+    font-family: myFirst;
+    src: url(NotoSansSC-Medium.otf);
+}
+
+
 .button1 {
   background-color: #f44336; /* Green */
   border: none;
   color: white;
-  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
+  border-radius: 10px;
+  margin: 8px;
+}
+button:active{
+    background-color: #ffff00;
+}
+.popup{
+    background-color: #ffffff;
+    width: 260px;
+    padding: 20px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+}
+.popu {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.popup p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
 }
 
-</style>
-  </head>
-  <body>
-    <div style="position: absolute; z-index: 1000">
-      <button id="example-start-button" class="button1">Start</button>
-      
-      <button id="example-stop-button" class="button1">Stop</button>
-      
-</div>
-    </div>
-    <a-scene mindar-image="imageTargetSrc: targets.mind; autoStart: true;" embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
-      <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable"></a-camera>
-<a-assets>
-    <a-asset-item id="avatarModel" src="final model.gltf"></a-asset-item>
-</a-assets>
+.popup h2{
+    font-size: 22px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+.popup p2{
+    font-size: 12px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+    color: #7D7D7D ;
+}
 
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+  width: 20%;
+  
+}
+
+
+</style>
+<script>
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1
+    )
+});
+
+
+window.addEventListener("click", function(){
+    setTimeout(
+     function close(event){
+	document.querySelector(".popup").style.display = "none";
+	},3000
+	)
+});
+
+</script>
+  </head>
+  <body style="background: #000000 ">
+
+<button onclick="play()" class="button1" style="position: relative; z-index: 1000">PLAY</button>
+<button onclick="stop()" class="button1" style="position: relative; z-index: 1000">STOP</button>
+<audio id="audio" src="audio.mp3" loop></audio>
+<div style="position: relative; z-index: 1000" class="popup" >
+    
+
+        <h2 style="font-family: myFirstFont">欢迎阅读本校校刊</h2>
+        <p style="font-family: myFirst">
+            请点击以下按键开始观看3D 立体模型 AR.
+        </p>
+      <button id="close" class="popu" onclick="play()">点击开始</button>
+      <p2 style="font-family: myFirst">
+            努力缓冲中，请耐心等待 ...
+        </p2>
+       <h3 style="font-family: myFirstFont ; font-size:15px">
+            设计：林子扬
+        </h3>
+      
+    </div>
+
+    <a-scene mindar-image="imageTargetSrc: targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s">
+      <a-assets>
+    <a-asset-item id="avatarModel" src="final model.gltf"></a-asset-item>
+      </a-assets>
+      <a-camera position="0 0 0" look-controls="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-gltf-model rotation="90 0 0 " position="0 0 -0.3" scale="0.2 0.2 0.2" src="#avatarModel" animation-mixer >
+        <a-gltf-model rotation="90 0 0 " position="0 0 -0.3" scale="0.2 0.2 0.2" src="#avatarModel" animation-mixer>
 
       </a-entity>
     </a-scene>
