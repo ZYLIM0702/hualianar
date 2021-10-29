@@ -1,167 +1,263 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image.prod.js"></script>
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image-aframe.prod.js"></script>
-    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-<script>
-      function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
-      }
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
-
- function stop() {
-    var audioPlayer = document.getElementsByTagName('audio')[0];
-    audioPlayer.pause();
-    audioPlayer.currentTime = 0;
+    -->
+    <style>
+    
+:root {
+  --color-bg: #69F7BE;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
 }
-</script>
-<style>
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
 @font-face {
-    font-family: myFirstFont;
-    src: url(MaShanZheng-Regular.ttf);
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
 }
 @font-face {
-    font-family: myFirst;
-    src: url(NotoSansSC-Medium.otf);
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
 }
 
-
-.button1 {
-  background-color: #f44336; /* Green */
-  border: none;
-  color: white;
-  text-align: center;
+/* Our remix on glitch button */
+.btn--remix {
+  font-family: HK Grotesk;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  height: 2.75rem;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 13px;
-  border-radius: 10px;
-  margin: 8px;
-}
-button:active{
-    background-color: #ffff00;
-}
-.popup{
-    background-color: #ffffff;
-    width: 260px;
-    padding: 20px 40px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    border-radius: 8px;
-    display: none;
-    text-align: center;
-}
-.popu {
-    display: block;
-    width: 150px;
-    position: relative;
-    margin: 10px auto;
-    text-align: center;
-    background-color: #0f72e5;
-    color: #ffffff;
-    padding: 5px 0;
-    border-radius: 10px;
-    font-size: 15px;
-}
-.popup p{
-    font-size: 16px;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
-    text-align: center;
-}
-
-.popup h2{
-    font-size: 22px;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
-    text-align: center;
-    font-size: 26px;
-}
-.popup p2{
-    font-size: 12px;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
-    text-align: center;
-    color: #7D7D7D ;
-}
-
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-
-.center {
-  display: block;
+  color: #000;
+  white-space: nowrap;
   margin-left: auto;
-  margin-right: 5%;
-  width: 20%;
+}
+.btn--remix img {
+  margin-right: 0.5rem;
+}
+.btn--remix:hover {
+  background-color: #D0FFF1;
+}
+
+/* Navigation grid */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
+}
+
+.footer a:not(.btn--remix):link,
+a:not(.btn--remix):visited {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #000;
+  text-decoration: none;
+  border-style: none;
+}
+.footer a:hover {
+  background: var(--color-primary);
+}
+
+.footer .links {
+  padding: 0.5rem 1rem 1.5rem;
+  white-space: nowrap;
+}
+
+.divider {
+  padding: 0 1rem;
+}
+/******************************************************************************
+END Glitch hello-app default styles
+******************************************************************************/
+
+body {
+  font-family: HK Grotesk;
+  background-color: #ffffff;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
   
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+/* Very light scaling for our illustration */
+.title {
+  color: #2800FF;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 105%;
+  margin: 0;
+}
 
-</style>
-<script>
-window.addEventListener("load", function(){
-    setTimeout(
-        function open(event){
-            document.querySelector(".popup").style.display = "block";
-        },
-        1
-    )
-});
+/* Very light scaling for our illustration */
+.illustration {
+  width: 100%;
+}
 
+/* Instructions */
+.instructions {
+  margin: 1rem auto 0;
+}
 
-window.addEventListener("click", function(){
-    setTimeout(
-     function close(event){
-	document.querySelector(".popup").style.display = "none";
-	},3000
-	)
-});
+/* Button - Add it from the README instructions */
+.xx{
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120%;
+  background: #FFFF00;
+  border: 1px solid #ffffff;
+  width: 180px;
+  height:100px;
+  border-radius: 4px;
+  padding: center;
+  
+}
+.x {
+  
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120%;
+  background: #FF00FF;
+  border: 1px solid #ffffff;
+  width: 180px;
+  height:100px;
+  border-radius: 4px;
+  padding: center;
+}
 
-</script>
-  </head>
-  <body style="background: #000000 ">
+/* Subheading */
+h2 {
+  color: #2800FF;
+}
 
-<button onclick="play()" class="button1" style="position: relative; z-index: 1000">PLAY</button>
-<button onclick="stop()" class="button1" style="position: relative; z-index: 1000">STOP</button>
-<audio id="audio" src="audio.mp3" loop></audio>
-<div style="position: relative; z-index: 1000" class="popup" >
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+.dipped {
+  transform: translateY(5px);
+}
+
+.dive {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 3.5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
     
+    </style>
+    <title>冬梅-华联校刊</title>
 
-        <h2 style="font-family: myFirstFont">欢迎阅读本校校刊</h2>
-        <p style="font-family: myFirst">
-            请点击以下按键开始观看3D 立体模型 AR.
-        </p>
-      <button id="close" class="popu" onclick="play()">点击开始</button>
-      <p2 style="font-family: myFirst">
-            努力缓冲中，请耐心等待 ...
-        </p2>
-       <h3 style="font-family: myFirstFont ; font-size:15px">
-            设计：林子扬
-        </h3>
-      
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://zylim0702.github.io/hualianar" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="favicon/og image.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+  </head>
+  <body>
+    <div class="dive" style="position:absolute ; z-index:1000">
+      <button class="xx" onclick="location.href = 'https://zylim0702.github.io/hualianar/android.html';"  >Android</button>
+      <button class="x" onclick="location.href = 'https://zylim0702.github.io/hualianar/google.html';" class="float-left submit-button" >IOS / GOOGLE</button>
+
     </div>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        
 
-    <a-scene mindar-image="imageTargetSrc: targets1.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s">
-      <a-assets>
-    <a-asset-item id="avatarModel" src="final/untitled.gltf"></a-asset-item>
-      </a-assets>
-      <a-camera position="0 0 0" look-controls="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s"></a-camera>
-
-      <a-entity mindar-image-target="targetIndex: 0">
-        <a-gltf-model rotation="90 0 0 " position="0 0 -0.3" scale="0.2 0.2 0.2" src="#avatarModel" animation-mixer>
-
-      </a-entity>
-    </a-scene>
+        <img
+          src="favicon/background.jpg"
+          class="illustration"
+          alt="校刊封面"
+        />
+        
   </body>
 </html>
