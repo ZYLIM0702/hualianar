@@ -1,5 +1,27 @@
-<model-viewer bounds="tight" src="final model1.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay auto-rotate camera-orbit="0.4986deg 69.02deg auto" camera-target="0.02m 2.77m -0.09m" exposure="1.3" environment-image="spruit_sunrise_1k_HDR.hdr">
+<model-viewer bounds="tight" src="finals.glb" ios-src="finals.glb" ar ar-modes="scene-viewer webxr quick-look" magic-leap camera-controls poster="poster.webp" shadow-intensity="1" autoplay auto-rotate camera-orbit="0.4986deg 69.02deg auto" camera-target="0.02m 2.77m -0.09m" exposure="1" >
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="model-viewer.min.js"></script>
+      <script type="module"
+      src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer.js">
+  </script>
 
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+  <script nomodule
+      src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer-legacy.js">
+  </script>
+  
+  
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
