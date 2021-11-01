@@ -90,8 +90,17 @@ button:active{
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 <model-viewer 
-  src="finals.glb" camera-controls poster="poster.webp" shadow-intensity="1" autoplay auto-rotate camera-orbit="0.4986deg 69.02deg auto" camera-target="0.02m 2.77m -0.09m"
+  src="" ios-src="Blossom.usdz" camera-controls poster="poster.webp" shadow-intensity="1" autoplay auto-rotate camera-orbit="0.4986deg 69.02deg auto" camera-target="0.02m 2.77m -0.09m"
   camera-controls>
+  <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
 </model-viewer>
    <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
