@@ -1,0 +1,539 @@
+newmtl FishTankBridge01_909a7231-cbf7-456f-9885-98c9a5767e86
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import.jpg
+newmtl Material_0_9d88933c-8cc6-478e-a749-ef8bb14d88e6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_1.jpg
+newmtl Branches_0236f42b-fa43-4eb9-9e6e-d1464ea9a8df
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_2.jpg
+newmtl Material.001_252251f3-cd89-42e1-9ad3-f8984df7a531
+Kd 0.904 0.904 0.904
+d 1.000
+newmtl petal02_6be06041-eb3b-41d4-b214-9f7c45bbeed4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03_8876dec4-5275-4cfe-8a14-64cf0560a14b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01_4b54e830-8aa5-48d9-afc5-4370fc0538ac
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl raw2_5f3c2698-f3ac-484e-bd85-56d2f0e5ea13
+Kd 0.274 0.263 0.230
+d 1.000
+newmtl raw2.001_fbe12b26-6d08-4f62-90dd-15f3c761f9fe
+Kd 0.245 0.234 0.212
+d 1.000
+newmtl raw2.004_8f9df9e5-5ced-4b23-8d49-02dba3311d14
+Kd 0.248 0.237 0.205
+d 1.000
+newmtl Material_0.002_67f4b027-fd54-4ef1-a8b8-139adb9fb808
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_1.jpg
+newmtl petal02.010_4a5ef437-84dc-496b-90f8-b7769c248f9d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.004_0e60cd80-f187-4b9f-9dc4-14f9f6c0601d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.004_351e29ab-ec29-4395-861c-b331167f6a23
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.011_8312ffd6-bd68-4bb2-89f7-81c606922045
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.005_5ac7caf7-484a-4757-9ba1-7298b27bb239
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.005_734cdc2a-fa52-4e9a-a502-e74d68c6a79e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.012_9747773e-86b8-421d-9dff-587827e4e393
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.006_fe048649-29b0-4d9f-b08c-6a5e2565ed71
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.006_ce3939fc-2b99-4dce-8847-0468be3bcc8b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.013_ab9a790c-2c43-4e66-8131-dce413d17841
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.007_2dfb353a-e988-47c3-b805-01f52a354662
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.007_1c1acb75-75dd-4dbf-b699-9dccf4d797ab
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.014_b0b7efbd-616f-4572-b822-d43882541dee
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.008_9da2e466-49a9-4f02-97df-cc0a3d465e1d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.008_84e3e767-992b-4f0a-9bf7-c04501597953
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.015_41319081-1643-4c64-ad8a-3675992db93c
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.009_7fe68164-b229-4e93-96be-204ebb2bd00d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.009_a1e0eda7-6a11-4476-b12e-a5641d4a2152
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.016_0cdeb17a-334f-4c40-af2d-b0285cc34756
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.010_31e309f3-9162-4977-b898-abc9292bcc4e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.010_8fca9d18-a6e0-4f6e-a883-80591be84d3f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.017_148d4912-1278-4a80-b3c1-1406f0891289
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.011_40ee3795-5fa2-4012-9199-9ece9984903b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.011_b851840a-0627-4aed-af9c-96e4eae4a3e4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.018_7be6fbc4-037f-4479-b405-953325e445c2
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.012_570985bc-e7c2-41a0-969f-fd0edf155ad8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.012_e53d91cc-8118-4a40-99ce-af9a8c9bbd85
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.019_6b5e24ec-4c51-4b08-ac86-3695e38a5da7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.013_4cb2c0a8-aae8-499e-aafb-298470bfeec6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.013_27be95f4-83fa-43c3-865e-9ba446e0734c
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.020_1d2e2f11-be1a-4db5-8251-90d3285caae6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.014_4677a48e-7ffc-46c6-a494-249cc9f1f1d8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.014_6b4e6968-cc1c-4011-b259-23893e35fd09
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.021_167aa9cc-1bd9-4001-b8f0-fc41b4307ca8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.015_5b0913cb-3684-4403-9cee-c911f44897c4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.015_dc18b616-1335-4155-8c52-0243907421e2
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.022_c2a632af-4a84-43c8-9c92-8c76c1057430
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.016_87c99577-2ac0-409f-b635-b89ca95856b4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.016_eca3dba7-b36c-4d69-9574-7e966e88b5ec
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.023_b5d583e3-5bdf-4a11-b3a6-9df2bbc4cae0
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.017_cecbc659-f51a-48a9-bc81-a8d8d97670fe
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.017_b20c3754-b92c-43d6-a2d1-bda3e70a182f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.024_97812f8c-59d0-4388-99c5-17f43cedac93
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.018_a5c8eaa0-c31b-431c-be29-36a1fd1e5bc9
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.018_d9b0c66d-1cf1-4d22-a201-e2759dcd2c39
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.001_de73b296-deaa-45a6-b750-3670248bdd2a
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.001_6d02ba6a-332d-433b-845f-09d1109662b7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.001_27c5a6a3-91a0-47a3-9b08-c67135896e18
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.002_96c11731-82dc-41a5-af85-d43b6267997c
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.002_972d8258-0c71-4c6c-96c2-9bcc4520c0ab
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.002_3f8ac7fd-d614-4ed5-bb42-bc1baf496a03
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.003_2962cf08-c1c3-4d73-b8ba-3e156e447ae3
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.003_7b27f54a-981c-4bfc-9c81-9f8a8dbfe6a4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.003_d2d1dd46-7586-42ce-b86d-f70b055c8865
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.004_1925c01c-cae5-4108-b50b-6f2ac5741ea6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.019_e107ffb8-a978-4f94-b8a7-5e636b356477
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.019_31e8fff6-8a5d-448c-9c81-9a341f2782f5
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.005_2b827fa7-3d47-4f67-8eb0-bed9e0bd63eb
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.020_8b6bc435-80ad-4f93-8c29-b7dcf4ec7d9e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.020_6e330e17-4046-4222-85a8-c6b3c655846a
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.006_8c882895-ecb9-4e73-bda3-62e5016a4f2d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.021_5a8f0b83-8ab6-46a8-afd0-48cf81020152
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.021_d8efeb39-ad80-45f5-b434-63334b944ddc
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.007_91e3351c-1364-481d-98e9-e2dea8e80280
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.022_2677c6c2-c7c7-40fe-a161-7ffe09a9036a
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.022_9b6fdca1-6e3e-49c6-a755-b7514f743a4f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.008_c220e8f9-1c09-466d-a696-3f6c7b851b9e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.023_079b8979-2f31-450c-ab26-b5c3aa856d4b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.023_727da31b-f882-448c-864f-db128c4aaa95
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.009_304a5ffd-c75a-435b-8797-0d34140f340d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.024_47941327-35e6-43d4-a53e-fbb3ba8a9b91
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.024_bbdf380a-21b4-4b79-8212-854b36944976
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.025_148fd882-297f-4af3-b022-651ab77c20b6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.025_00cbcb1b-8224-4497-be10-81b54446d176
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.025_7619fb77-ecdb-4ae5-bc49-26c0557f571b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.026_70ae2e39-2269-49e0-820c-2fa696bbef4e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.026_7585baec-8ed4-4b94-95a2-30c3419e016d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.026_4d608663-829c-4757-9869-e4a9949bdc65
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.027_d5625a3e-43f8-4e7f-aaa0-81395c528386
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.027_4bb2b4b4-df3d-4b14-bc93-b03c625aa04b
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.027_a38ac4d5-66a7-4350-ac4f-07b8a827d1a4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.028_700ecaf0-634e-4ab8-8bfd-04e933276363
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.028_acf840d5-72b3-4113-a07e-3985da642cfd
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.028_7a76de21-0b43-4a82-96c8-355eed608d8a
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.033_f97cec0e-f400-4128-8dba-6d1db968f8e7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.033_4535810c-4b3d-4a63-92aa-13f781f20f70
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.033_9b7bcbe6-a1a9-4fcf-9409-d6b5146ec6bc
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.032_f8e4ae8f-0ac1-4a72-9155-4ece1eeb5a15
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.032_ebdd058a-0e04-4e55-803e-6a71c931d418
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.032_ff92af2e-76e9-4941-9aea-884c5aa9288f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.031_075f4626-b9c7-4636-afa2-a27fac533e39
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.031_e9783816-0148-48a7-9473-5c9d7fc319c1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.031_b45af638-11e2-4081-8b8b-9c732f917e17
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.030_f08011dc-85b0-4751-ac66-8301c07d8e51
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.030_6d4ead94-c9ff-4654-9ab5-35c66f131c28
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.030_4d6e8c1f-82eb-49f0-abf7-c41f5f869af1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.029_16f00797-5198-4d68-b499-8147eb826165
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.029_910ff463-2c8d-437d-a37f-07ac762efdb6
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.029_dbda9bf1-63f3-4289-b553-c0fbf5aeeee7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.038_8e20039f-4a2d-4ea8-900b-091b8322645e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.038_5d35a918-2791-4d05-b5d0-aa7dcdecf625
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.038_acdc63dc-cfbb-47d0-a0d6-e1896342c1c8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.037_2c4711c5-0295-4c8a-a43f-056991acff84
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.037_41ddf7f0-1626-4f8f-8c94-88e08b742164
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.037_013c94bb-85c4-4f08-8d71-8ff2d98295e8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.036_6b667059-3faa-4ed0-b70d-75b6481d79f4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.036_ae82188a-f70e-486c-86e7-7bddb4f18120
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.036_91c0a325-9d80-4d66-b168-018fdf7dd114
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.035_6b0028f7-c300-4d04-9e43-509aaa3e6da2
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.035_c939e325-8ff1-43cd-bb51-0be4227a4b61
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.035_7f2bc3f6-6242-44bc-ac55-728bbf35535d
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal02.034_32bd9f11-a064-4d50-9b1b-1f78026218aa
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal03.034_0cd59896-6414-47fa-8e5d-286dba12965f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl petal01.034_aa132589-258e-40da-98c1-368047b4955e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_3.jpg
+newmtl Snowflake_e506be3c-1630-4331-a61e-ed4321a505bc
+Kd 0.904 0.904 0.904
+d 1.000
+newmtl Material.002_25db7c80-e6ef-4487-bb3d-92fa0447d20d
+Kd 0.389 0.298 0.145
+d 1.000
+newmtl Material_0.003_bcff04a5-2416-4ddf-aa1b-2c1abc8659db
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_4&Gltf_Import_4_opacity.png
+newmtl Wolf3D_Eye.001_b406842c-969a-4bb9-a600-6a5c01aadc13
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_5.jpg
+newmtl Wolf3D_Body.001_9aeb86db-7f3a-43dc-9dd9-1c36bd44d7aa
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_6.jpg
+newmtl Wolf3D_Glasses.001_46109db9-6f9a-418f-aae9-a0355d5d12c6
+Kd 0.063 0.055 0.057
+d 1.000
+newmtl Wolf3D_Hair.001_a190e709-11ee-41e3-8f5b-2f40eb8acd46
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_8.jpg
+newmtl Wolf3D_Skin.001_74dde4e4-4d15-4df4-bca6-0e97b95ec9b0
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_10.jpg
+newmtl Wolf3D_Outfit_Bottom.001_4bd28ed0-c7a2-4c2c-98c6-c40aa4507afb
+Kd 0.172 0.172 0.172
+d 1.000
+newmtl Wolf3D_Outfit_Footwear.001_02376495-34ba-4213-95f7-29a7d304b4a3
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_13.jpg
+newmtl Wolf3D_Outfit_Top.001_a78f5851-26be-4541-baa4-e0ed1bd62df1
+Kd 0.000 0.602 1.000
+d 1.000
+newmtl Wolf3D_Teeth.001_f38fcb14-7d5f-4639-a5bf-ef212715701f
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Gltf_Import_18.jpg
