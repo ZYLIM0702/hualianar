@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="冬梅-太平华联华中校刊AR">
-    <meta name="description" content="冬梅-太平华联华中校刊AR">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>冬梅- 华联校刊</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
@@ -22,14 +19,15 @@
 <link rel="manifest" href="favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <meta name="google-site-verification" content="qoLbrPu_1ix1PNbxqvZlcVWgwgawGMfGdvGaZQ8m-_0" />
-    <title>冬梅-太平华联华中校刊AR</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Page-1.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
+        <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image-aframe.prod.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<meta name="generator" content="Nicepage 3.17.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <meta name="robots" content="index,follow" />
     <meta property="og:title" content="冬梅-华联校刊AR" />
@@ -59,17 +57,174 @@
      crossorigin="anonymous"></script>
 	  
 	  
-	  
+
+<script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+
+
+ function stop() {
+    var audioPlayer = document.getElementsByTagName('audio')[0];
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+}
+</script>
+<style>
+@font-face {
+    font-family: myFirstFont;
+    src: url(MaShanZheng-Regular.ttf);
+}
+@font-face {
+    font-family: myFirst;
+    src: url(NotoSansSC-Medium.otf);
+}
+
+
+.button1 {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+  margin: 8px;
+}
+button:active{
+    background-color: #ffff00;
+}
+.popup{
+    background-color: #ffffff;
+    width: 260px;
+    padding: 20px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+}
+.popu {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.popup p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.popup h2{
+    font-size: 22px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+.popup p2{
+    font-size: 12px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+    color: #7D7D7D ;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+  width: 20%;
+  
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+</style>
+<script>
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1
+    )
+});
+
+
+window.addEventListener("click", function(){
+    setTimeout(
+     function close(event){
+	document.querySelector(".popup").style.display = "none";
+	},3000
+	)
+});
+
+</script>
   </head>
-  <body data-home-page="Page-1.html" data-home-page-title="Page 1" class="u-body">
-    <section class="u-clearfix u-section-1" id="sec-d7ea">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-expanded-width-xs u-image u-image-default u-image-1" src="images/background.jpg" alt="" data-image-width="720" data-image-height="1080">
-        <a href="https://zylim0702.github.io/hualianar/googlear.html" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-3 u-radius-6 u-btn-1">IOS /GOOGLE</a>
-        <a href="https://zylim0702.github.io/hualianar/android.html" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-custom-color-4 u-radius-6 u-btn-2">Android</a>
-      </div>
-    </section>
+  <body style="background: #000000 ">
+<button onclick="play()" class="button1" style="position: relative; z-index: 1000">PLAY</button>
+<button onclick="stop()" class="button1" style="position: relative; z-index: 1000">STOP</button>
+<a class="bottomright" href="https://zylim0702.github.io/hualianar/googlear.html"><img src="ari.png" width="60" height="60" class="bottomright" style="position: relative; z-index : 10000"></a>
+<audio id="audio" src="audio.mp3" loop></audio>
+<div style="position: relative; z-index: 1000" class="popup" >
     
-   
+
+        <h2 style="font-family: myFirstFont">欢迎阅读本校校刊</h2>
+        <p style="font-family: myFirst">
+            请点击以下按键开始观看3D 立体模型 AR.
+        </p>
+      <button id="close" class="popu" onclick="play()">点击开始</button>
+      <p2 style="font-family: myFirst">
+            努力缓冲中，请耐心等待 ...
+        </p2>
+       <h3 style="font-family: myFirstFont ; font-size:15px">
+            设计：林子扬
+        </h3>
+      
+    </div>
+
+
+
+    <a-scene mindar-image="imageTargetSrc: targets2.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s">
+      <a-assets>
+    <a-asset-item id="avatarModel" src="done.gltf"></a-asset-item>
+      </a-assets>
+      <a-camera position="0 0 0" look-controls="enabled: false" style="-webkit-animation: fadeIn 1s; animation: fadeIn 1s"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model rotation="90 0 0 " position="0 0 -0.3" scale="0.3 0.3 0.3" src="#avatarModel" animation-mixer>
+
+      </a-entity>
+    </a-scene>
   </body>
 </html>
